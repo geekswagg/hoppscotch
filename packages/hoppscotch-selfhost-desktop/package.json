@@ -20,7 +20,7 @@
     "@hoppscotch/data": "workspace:^",
     "@platform/auth": "0.1.106",
     "@tauri-apps/api": "1.5.1",
-    "@tauri-apps/cli": "1.5.6",
+    "@tauri-apps/cli": "2.0.0",
     "@vueuse/core": "10.5.0",
     "axios": "1.8.2",
     "buffer": "6.0.3",
