@@ -65,7 +65,7 @@
     "handlebars": "4.7.8",
     "io-ts": "2.2.22",
     "morgan": "1.10.1",
-    "nodemailer": "7.0.10",
+    "nodemailer": "7.0.11",
     "passport": "0.7.0",
     "passport-github2": "0.1.12",
     "passport-google-oauth20": "2.0.0",
@@ -74,7 +74,7 @@
     "passport-microsoft": "2.1.0",
     "pg": "8.16.3",
     "posthog-node": "5.13.2",
-    "prisma": "7.0.0",
+    "prisma": "7.1.0",
     "reflect-metadata": "0.2.2",
     "rimraf": "6.1.2",
     "rxjs": "7.8.2"
