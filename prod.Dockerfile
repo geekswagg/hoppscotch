@@ -1,6 +1,6 @@
 # This step is used to build a custom build of Caddy to prevent
 # vulnerable packages on the dependency chain
-FROM alpine:3.22.2 AS caddy_builder
+FROM alpine:3.23.2 AS caddy_builder
 RUN apk add --no-cache curl git && \
   mkdir -p /tmp/caddy-build && \
   curl -L -o /tmp/caddy-build/src.tar.gz https://github.com/caddyserver/caddy/releases/download/v2.10.2/caddy_2.10.2_src.tar.gz
@@ -45,7 +45,7 @@ RUN go build
 
 
 # Shared Node.js base with optimized NPM installation
-FROM alpine:3.22.2 AS node_base
+FROM alpine:3.23.2 AS node_base
 # Install dependencies
 RUN apk add --no-cache nodejs curl bash tini ca-certificates \
   && mkdir -p /tmp/npm-install
