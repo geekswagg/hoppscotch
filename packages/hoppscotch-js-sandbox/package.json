@@ -55,8 +55,8 @@
     "chai": "6.2.1",
     "faraday-cage": "0.1.0",
     "fp-ts": "2.16.11",
-    "lodash": "4.17.21",
-    "lodash-es": "4.17.21"
+    "lodash": "4.17.23",
+    "lodash-es": "4.17.23"
   },
   "devDependencies": {
     "@digitak/esrun": "3.2.26",
