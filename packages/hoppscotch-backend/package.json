@@ -31,7 +31,7 @@
     "do-test": "pnpm run test"
   },
   "dependencies": {
-    "@apollo/server": "5.2.0",
+    "@apollo/server": "5.4.0",
     "@as-integrations/express5": "1.1.2",
     "@nestjs-modules/mailer": "2.0.2",
     "@nestjs/apollo": "13.2.1",
@@ -43,7 +43,7 @@
     "@nestjs/passport": "11.0.0",
     "@nestjs/platform-express": "11.1.9",
     "@nestjs/schedule": "6.0.1",
-    "@nestjs/swagger": "11.2.3",
+    "@nestjs/swagger": "11.2.6",
     "@nestjs/terminus": "11.0.0",
     "@nestjs/throttler": "6.4.0",
     "@prisma/adapter-pg": "7.0.0",
